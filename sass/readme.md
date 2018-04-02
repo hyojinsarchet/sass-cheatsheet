@@ -104,7 +104,6 @@ $container-width: 100%;
   }
   ```
 
-```
 ### Mixins
 
 * It allows you to include styles the same way @extend would, but with the ability to supply and interperet arguments.
@@ -134,4 +133,3 @@ https://www.youtube.com/watch?v=t9IHDRWx1dQ&list=PL6gx4Cwl9DGBxQO2r_kmxn-0UqL_Rk
 ### Some Sass(Scss) Practice I made on Codepen
 
 [Codepen](https://codepen.io/hyojinsarchet/pen/rdKjmL?editors=1100)
-```
