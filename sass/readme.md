@@ -6,11 +6,11 @@
 
 ### Features
 
-Fully CSS-compatible
-Language extensions such as variables, nesting, and mixins
-Many useful functions for manipulating colors and other values
-Advanced features like control directives for libraries
-Well-formatted, customizable output
+* Fully CSS-compatible
+* Language extensions such as variables, nesting, and mixins
+* Many useful functions for manipulating colors and other values
+* Advanced features like control directives for libraries
+* Well-formatted, customizable output
 
 ### How to install
 
@@ -19,33 +19,37 @@ Well-formatted, customizable output
   $sudo gem install sass
 * Check the version of the sass
   $ sass --version
-
-[more info about install](https://sass-lang.com/install)
+* [more info about install](https://sass-lang.com/install)
 
 ### Sass vs Scss
 
-Sass has more simple code like Ruby and Scss is more like CSS. But Scss is more popular and widely used.
+* Sass has more simple code like Ruby and Scss is more like CSS. But Scss is more popular and widely used.
 
 ### Variables: Sass brings variables to CSS.
 
-EX)
+* EX)
+
+```
 $primaryColor: #eeccff;
 
 body {
-background: $primaryColor
+    background: $primaryColor
 }
 
 $firstValue: 62.5%;
+```
 
+```
 p {
-font-size: $firstValue
+    font-size: $firstValue
 }
 
 $container-width: 100%;
 
 .container {
-width: $container-width;
+    width: $container-width;
 }
+```
 
 ### Functions
 
@@ -53,46 +57,54 @@ width: $container-width;
   EX)
   $color: hsl(120deg, 100%, 50%)
 
-More examples are below.
-http://sass-lang.com/documentation/Sass/Script/Functions.html
+* [More examples](http://sass-lang.com/documentation/Sass/Script/Functions.html)
 
 ### Nesting
 
-EX)
+* EX)
+
+```
 .container {
-width: 100%;
-h1 {
-color: red;
+    width: 100%;
+    h1 {
+    color: red;
+    }
 }
-}
+```
 
 ### Imports
 
 * It allows you to break your styles into separate files and import them into one another. This does wonders for organization and speed of editing.
 
-EX)
+* EX)
+
+```
 @import "grids.scss";
 @import "grids"; (don't even really need the extension)
+```
 
 ### Extends & Placeholders
 
 * @extend directive is an outstanding way to inherit already existing styles.
-  EX)
+
+  ```
   .input {
-  border-radius: 3px;
-  border: 4px solid #ddd;
-  color: #555;
-  font-size: 17px;
-  padding: 10px 20px;
-  display: inline-block;
-  outline: 0;
+      border-radius: 3px;
+      border: 4px solid #ddd;
+      color: #555;
+      font-size: 17px;
+      padding: 10px 20px;
+      display: inline-block;
+      outline: 0;
   }
 
-.error-input {
-@extend .input;
-border:4px solid #e74c3c;
-}
+  .error-input {
+      @extend .input;
+      border:4px solid #e74c3c;
+  }
+  ```
 
+```
 ### Mixins
 
 * It allows you to include styles the same way @extend would, but with the ability to supply and interperet arguments.
@@ -116,11 +128,10 @@ https://www.youtube.com/watch?v=t9IHDRWx1dQ&list=PL6gx4Cwl9DGBxQO2r_kmxn-0UqL_Rk
 * Getting Started with SASS (with Interactive Examples)
   https://scotch.io/tutorials/getting-started-with-sass
 
-- The Sass Way
-  http://www.thesassway.com/
-- Sass News
-  https://twitter.com/SassNews
+- [The Sass Way](http://www.thesassway.com/)
+- [Sass News](https://twitter.com/SassNews)
 
 ### Some Sass(Scss) Practice I made on Codepen
 
-https://codepen.io/hyojinsarchet/pen/rdKjmL
+[Codepen](https://codepen.io/hyojinsarchet/pen/rdKjmL?editors=1100)
+```
