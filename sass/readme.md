@@ -114,8 +114,12 @@ https://www.youtube.com/watch?v=t9IHDRWx1dQ&list=PL6gx4Cwl9DGBxQO2r_kmxn-0UqL_Rk
 ### Good tutorials to learn
 
 * Getting Started with SASS (with Interactive Examples)
+  https://scotch.io/tutorials/getting-started-with-sass
 
-https://scotch.io/tutorials/getting-started-with-sass
+- The Sass Way
+  http://www.thesassway.com/
+- Sass News
+  https://twitter.com/SassNews
 
 ### Some Sass(Scss) Practice I made on Codepen
 
